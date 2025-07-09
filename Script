@@ -1,0 +1,15 @@
+local atlas = loadstring(game:HttpGet("https://rd2glory.com/Atlas.lua"))()
+
+local window = atlas.new({
+    Name = "Auto Vex";
+    ConfigFolder = "AutoVexScript";
+    Credit = "Made by Skrpt_X!";
+    Color = Color3.fromRGB(164, 53, 90);
+    FullName = "Auto Vex v1.0";
+    UseLoader = false;
+    Bind = "LeftControl";
+    CheckKey = nil,
+    Discord = nil
+})
+
+local mainPage = window:CreatePage("Main")

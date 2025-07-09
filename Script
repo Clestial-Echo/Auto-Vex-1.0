@@ -1,17 +1,20 @@
-print("Hello!")
+warn("Hello! This message is from the only Auto-Vex creator. If you see this message, then thank you for using this script.")
 
-local atlas = loadstring(game:HttpGet("https://rd2glory.com/Atlas.lua"))()
+task.wait(1)
 
-local window = atlas.new({
-    Name = "Auto Vex";
-    ConfigFolder = "AutoVexScript";
-    Credit = "Made by Skrpt_X!";
-    Color = Color3.fromRGB(164, 53, 90);
-    FullName = "Auto Vex v1.0";
-    UseLoader = false;
-    Bind = "LeftControl";
-    CheckKey = nil,
-    Discord = nil
-})
+warn("Auto-Vex 1.0 is Loading.")
+task.wait(1)
+warn("Auto-Vex 1.0 is Loading..")
+task.wait(1)
+warn("Auto-Vex 1.0 is Loading...")
 
-local mainPage = window:CreatePage("Main")
+warn("Auto-Vex 1.0 has Loaded. Enjoy! (Contact any bugs at my discord server) (You don't know the link to my discord server and I know you don't care)")
+
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Kavo-Ui/main/Darkrai%20Ui", true))()
+
+DarkraiX:Window(
+    1 = "Auto-Vex 1.0"
+    2 = "Flee the Facility"
+    3 = nil
+    4 = nil
+)

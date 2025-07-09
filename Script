@@ -1,3 +1,5 @@
+print("Hello!")
+
 local atlas = loadstring(game:HttpGet("https://rd2glory.com/Atlas.lua"))()
 
 local window = atlas.new({
